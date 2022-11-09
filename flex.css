@@ -1,0 +1,22 @@
+img {
+  height: 500px;
+  width: 900px;
+  margin-left: 200px;
+}
+h1 {
+  margin-left: 200px;
+  font-size: 200px;
+}
+p {
+  font-size: 100px;
+  color: red;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  filter: blur(0.1);
+  transform: rotate(180deg);
+  background-color: blueviolet;
+}
